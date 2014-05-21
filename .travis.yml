@@ -9,7 +9,7 @@ jdk:
 matrix:
  include:
   - lein: lein1
-  exclude:
+ exclude:
   - lein: lein2
 notifications:
   email: false
