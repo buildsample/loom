@@ -7,9 +7,9 @@ jdk:
   - oraclejdk7
 
 matrix:
- include:
-  - lein: lein1
  exclude:
   - lein: lein2
+ allow_failures:
+  - lein: lein1
 notifications:
   email: false
