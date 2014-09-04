@@ -4,8 +4,8 @@ lein:
    - lein2
 script: lein2 test :all
 jdk:
-#  - openjdk7
- # - openjdk6
+  - openjdk7
+  - openjdk6
   - oraclejdk7
 
 matrix:
