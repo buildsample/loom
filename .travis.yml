@@ -1,8 +1,10 @@
 language: clojure
+
 lein: 
    - lein1
    - lein2
 script: lein2 test :all
+
 jdk:
   - openjdk7
   - openjdk6
