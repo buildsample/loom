@@ -15,5 +15,8 @@ matrix:
   - lein: lein2
  allow_failures:
   - lein: lein1
+
+build_image: shippable/minv2:beta
+
 notifications:
   email: false
