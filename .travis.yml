@@ -3,6 +3,7 @@ language: clojure
 lein: 
    - lein1
    - lein2
+
 script: lein2 test :all
 
 jdk:
@@ -16,7 +17,7 @@ matrix:
  allow_failures:
   - lein: lein1
 
-build_image: shippable/minv2:beta
+#build_image: shippable/minv2:beta
 
 notifications:
   email: false
